@@ -1,0 +1,14 @@
+
+.homeWrapper {
+    padding: 20px;
+}
+
+.welcomeMessage {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 18px;
+    color: #e9e0e0;
+}

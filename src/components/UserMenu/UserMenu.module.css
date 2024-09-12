@@ -1,0 +1,37 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* Відстань між кнопкою і інформацією про користувача */
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.userName {
+    font-size: 14px;
+    margin: 0;
+}
+
+.userEmail {
+    font-size: 12px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.logoutButton {
+    background-color: #3543da;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.logoutButton:hover {
+    background-color: #051781;
+}

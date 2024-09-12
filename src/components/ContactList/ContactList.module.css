@@ -1,0 +1,10 @@
+.contactListWrapper {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 40px;
+}
+
+.contactListItem {
+    margin-bottom: 10px;
+}

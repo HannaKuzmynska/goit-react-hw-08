@@ -1,0 +1,54 @@
+.loginFormContainer {
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #6ca2e7;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 500px;
+}
+
+.loginFormLabel {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+    color: #000000;
+    display: block;
+}
+
+.loginFormInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 18px;
+    background-color: #dddddd;
+    color: #000000;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.loginFormButton {
+    padding: 12px;
+    background-color: #0e2744;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+.loginFormButton:hover {
+    background-color: #0e1f30;
+}
+
+.loginFormErrorMessage {
+    color: red;
+    font-size: 14px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}

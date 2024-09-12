@@ -1,0 +1,12 @@
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+    padding: 20px;
+    
+}
+.mainContent {
+    margin-top: 50px;
+
+}

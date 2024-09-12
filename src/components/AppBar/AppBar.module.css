@@ -1,0 +1,37 @@
+.headerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background-color: #0d1a37;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 50px;
+}
+
+.navLinks {
+    display: flex;
+    gap: 20px;
+    /* Відстань між Home і Contacts */
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navLink.active {
+    font-weight: bold;
+}
+
+.authNav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}

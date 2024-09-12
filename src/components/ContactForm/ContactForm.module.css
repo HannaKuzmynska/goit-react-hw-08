@@ -1,0 +1,50 @@
+.contactFormContainer {
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    max-width: 500px;
+}
+
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.submitButton {
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.submitButton:hover {
+    background-color: #0056b3;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 14px;
+}

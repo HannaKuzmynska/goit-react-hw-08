@@ -1,0 +1,16 @@
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    /* Додайте паддинг для кнопок */
+}
+
+.navigation a.active {
+    border-bottom: 2px solid white;
+    /* Додайте активний стиль, якщо потрібно */
+}
