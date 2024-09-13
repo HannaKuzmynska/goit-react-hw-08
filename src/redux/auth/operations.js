@@ -8,6 +8,14 @@ export const instance = axios.create({
 const SetAuthHeaders = (token) => {
   instance.defaults.headers.common["Authorization"] = `${token}`;
 };
+export const logOut = createAsyncThunk('auth/logout', async (_, thunkAPI) => {
+  try {
+    await axios.post('/users/logout');
+    axios.defaults.headers.common['Authorization'] = '';
+  } catch (error) {
+    return thunkAPI.rejectWithValue(error.message);
+  }
+});
 
 export const apiRegister = createAsyncThunk(
   "auth/register",
